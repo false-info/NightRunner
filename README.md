@@ -1,8 +1,6 @@
-# ApocExtract
+# NightRunner
 
-Apokalyptisk extraction shooter för 1–4 spelare (squad), förstapersons bodycam-vy, väldigt stor vapenarsenal med djupt mod-system. Byggt i **Unreal Engine 5** med **C++ + SIMD** och konst i **Blender**.
-
-> Arbetsnamn: ApocExtract. Byt ut när ni har ett riktigt namn.
+Realistisk, krävande extraction shooter i en apokalyptisk värld för 1–4 spelare (squad), förstapersons bodycam-vy, väldigt stor vapenarsenal med djupt mod-system. Byggt i **Unreal Engine 5** med **C++ + SIMD** och konst i **Blender**.
 
 ---
 
@@ -21,6 +19,20 @@ Apokalyptisk extraction shooter för 1–4 spelare (squad), förstapersons bodyc
 
 ---
 
+## 1b. Realism som designmål
+
+NightRunner ska kännas **verkligt, tungt och straffande**, inte arkadigt:
+
+- **Ballistik:** kulfall, hastighet, penetration och ricochet per kaliber/ammo-typ (data-drivet, simulerat i batch via SIMD-modulen).
+- **Vapenhantering:** vikt och ergonomi påverkar sikt, svaj och ADS-tid. Rekyl med mönster, riktiga laddnings- och felsituationer (hylsstopp, magasinbyte, kammare).
+- **Skador:** kroppsdelar, blödning, frakturer, smärta. Inga regenererande hälsobarer.
+- **Bodycam:** diegetisk HUD (så lite UI som möjligt), kamerans begränsningar syns i bilden.
+- **Ljud:** verkligt ljud är halva realismen (avstånd, rum, dämpning, tryckvåg).
+- **Visuellt:** fotogrammetri/PBR-material, Lumen/Nanite, konsekvent skala i meter.
+- **Referensmaterial:** samla verkliga foton och manualer i `Art/Reference/`. Bygg egna vapendesigner som är inspirerade av verkligheten.
+
+---
+
 ## 2. Teamroller (exempel, anpassa)
 
 | Person | Ansvar |
@@ -36,11 +48,11 @@ Alla får röra `Content/` och `Art/`, men **bara en person i taget per binär f
 ## 3. Filträd
 
 ```
-ApocExtract/
+NightRunner/
 ├── .gitignore
 ├── .gitattributes                  # Git LFS
 ├── README.md
-├── ApocExtract.uproject
+├── NightRunner.uproject
 │
 ├── Config/
 │   ├── DefaultEngine.ini
@@ -49,13 +61,13 @@ ApocExtract/
 │   └── DefaultGameplayTags.ini
 │
 ├── Source/
-│   ├── ApocExtract.Target.cs
-│   ├── ApocExtractEditor.Target.cs
-│   ├── ApocExtractServer.Target.cs          # dedicated server
+│   ├── NightRunner.Target.cs
+│   ├── NightRunnerEditor.Target.cs
+│   ├── NightRunnerServer.Target.cs          # dedicated server
 │   │
-│   ├── ApocExtract/                         # huvudmodul (spelet)
-│   │   ├── ApocExtract.Build.cs
-│   │   ├── ApocExtract.cpp / .h
+│   ├── NightRunner/                         # huvudmodul (spelet)
+│   │   ├── NightRunner.Build.cs
+│   │   ├── NightRunner.cpp / .h
 │   │   ├── Core/                            # GameMode, GameState, PlayerState, GameInstance
 │   │   ├── Player/                          # Character, Controller, Movement, Camera
 │   │   ├── Bodycam/                         # Bodycam-kamera, fisheye, timestamp/HUD
@@ -73,8 +85,8 @@ ApocExtract/
 │   │   ├── UI/                              # HUD, inventory-UI
 │   │   └── Audio/
 │   │
-│   ├── ApocSimd/                            # SIMD-modul (egen modul, lätt att benchmarka)
-│   │   ├── ApocSimd.Build.cs
+│   ├── NightRunnerSimd/                            # SIMD-modul (egen modul, lätt att benchmarka)
+│   │   ├── NightRunnerSimd.Build.cs
 │   │   ├── Public/
 │   │   │   ├── SimdMath.h
 │   │   │   ├── BatchedRaycast.h
@@ -83,14 +95,14 @@ ApocExtract/
 │   │   ├── Private/
 │   │   └── Tests/
 │   │
-│   └── ApocExtractEditor/                   # Editor-verktyg (weapon builder, validators)
+│   └── NightRunnerEditor/                   # Editor-verktyg (weapon builder, validators)
 │
 ├── Plugins/
 │   ├── GameFeatures/                        # Valfria features/events/DLC
 │   └── ThirdParty/
 │
 ├── Content/                                 # .uasset/.umap (LFS)
-│   ├── ApocExtract/
+│   ├── NightRunner/
 │   │   ├── Core/
 │   │   ├── Characters/
 │   │   ├── Weapons/                         # en mapp per vapen, med Attachments/ inuti
@@ -143,11 +155,11 @@ ApocExtract/
 ### Första gången
 ```bash
 git clone <repo-url>
-cd ApocExtract
+cd NightRunner
 git lfs pull
 ```
-1. Högerklicka `ApocExtract.uproject` → **Generate Visual Studio project files**
-2. Öppna `ApocExtract.sln`, välj **Development Editor** + **Win64**, bygg
+1. Högerklicka `NightRunner.uproject` → **Generate Visual Studio project files**
+2. Öppna `NightRunner.sln`, välj **Development Editor** + **Win64**, bygg
 3. Starta från Visual Studio (F5) eller öppna `.uproject`
 
 ### Artister
@@ -160,7 +172,7 @@ Ni behöver inte bygga C++ själva. Be programmeraren om en färdigbyggd editor-
 **Binära filer (.uasset, .umap, .blend, .fbx) går INTE att merga.** Två personer som ändrar samma fil = en av er förlorar sitt arbete.
 
 - **Prata innan ni rör en gemensam fil.** Skriv i chatten vem som jobbar på vilken map/blueprint.
-- **Använd LFS-lås:** `git lfs lock Content/ApocExtract/Maps/Raid_01.umap` och `git lfs unlock ...` när ni är klara. Se låsta filer med `git lfs locks`.
+- **Använd LFS-lås:** `git lfs lock Content/NightRunner/Maps/Raid_01.umap` och `git lfs unlock ...` när ni är klara. Se låsta filer med `git lfs locks`.
 - **Branches:** `main` ska alltid gå att öppna och bygga. Jobba på `feature/<namn>-<sak>`, t.ex. `feature/anna-ak47`.
 - **Pusha ofta, små commits.** Dagligen minst.
 - **Pulla innan ni börjar jobba.**
@@ -224,7 +236,7 @@ Build/
 
 **Filer och mappar:** inga mellanslag, inga å/ä/ö, engelska namn.
 
-**C++-klasser:** `A` (Actor), `U` (UObject), `F` (struct), `E` (enum), `I` (interface), `T` (template). Projektprefix valfritt, t.ex. `AApocWeaponBase`.
+**C++-klasser:** `A` (Actor), `U` (UObject), `F` (struct), `E` (enum), `I` (interface), `T` (template). Projektprefix valfritt, t.ex. `ANRWeaponBase`.
 
 ---
 
@@ -250,7 +262,7 @@ Skriv ner de exakta exportinställningarna i `Docs/Art_Pipeline.md` när ni har 
 - UE:s kodstandard (Epic Coding Standard) som bas. Använd `.clang-format` i repo-roten så formateringen är lika för alla.
 - **Allt gameplay-data ska vara datadrivet.** Vapen, ammo, attachments, items = `UDataAsset` / `UPrimaryDataAsset` + **Gameplay Tags**. Inga hårdkodade vapenvärden i C++.
 - **Tunga system i C++**, designer-justerbara saker exponeras med `UPROPERTY(EditAnywhere)` / `UFUNCTION(BlueprintCallable)`.
-- **Moduler:** håll beroenden enkla. `ApocSimd` ska **inte** bero på `ApocExtract`.
+- **Moduler:** håll beroenden enkla. `NightRunnerSimd` ska **inte** bero på `NightRunner`.
 - **Ingen tung logik i Tick** om det går att undvika. Använd timers/events.
 - **Nätverk från dag ett:** tänk server-auktoritativt. `UFUNCTION(Server, Reliable)` / `Client` / `NetMulticast`, `GetLifetimeReplicatedProps`. Predicera klientsidan där det känns.
 - **Kommentarer** på *varför*, inte *vad*.
@@ -262,11 +274,11 @@ Skriv ner de exakta exportinställningarna i `Docs/Art_Pipeline.md` när ni har 
 
 - **Mät först, optimera sen.** Använd Unreal Insights / egna benchmarks i `Tools/Benchmarks/`. SIMD ska bara användas där profilering visar att det behövs.
 - **Börja med UE:s `VectorRegister`-abstraktion** (`VectorRegister4Float`, `VectorLoad`, `VectorMultiplyAdd` osv.). Den är portabel mellan plattformar.
-- **Rå intrinsics (SSE/AVX2) endast efter behov**, i `ApocSimd`, med scalar-fallback och `#if` per plattform.
+- **Rå intrinsics (SSE/AVX2) endast efter behov**, i `NightRunnerSimd`, med scalar-fallback och `#if` per plattform.
 - **Datalayout:** **SoA** (Structure of Arrays) för batcher, t.ex. alla kulors position/hastighet i separata, alignade arrayer. 16/32-byte alignment.
 - **Bra kandidater i det här spelet:** batchad kulsimulering, ballistik/penetration, AI-perception/synlighet, partikel/debris-logik utanför Niagara, frustum/avståndscullning av egna objekt.
 - **Dåliga kandidater:** enskilda skott från spelaren, UI, sällsynt logik.
-- **Testa att scalar och SIMD ger samma resultat** (unit tests i `ApocSimd/Tests/`). Floating point-skillnader kan ge desync i nätverk, så var försiktig med determinism.
+- **Testa att scalar och SIMD ger samma resultat** (unit tests i `NightRunnerSimd/Tests/`). Floating point-skillnader kan ge desync i nätverk, så var försiktig med determinism.
 - **Kompilatorflaggor** (AVX2 etc.) styrs i `Build.cs`. Kräv inte AVX2 om ni vill att spelet ska köra på äldre CPU:er utan fallback.
 
 ---
@@ -282,7 +294,7 @@ Mål: **hundratals vapen och tusentals möjliga mod-kombinationer** utan att kod
 - **Kompatibilitet:** regelbaserat med tags (`Requires`, `Blocks`), inte en enorm manuell tabell.
 - **Visuellt:** attachment-meshes attachas på vapnets sockets vid runtime.
 - **Replikering:** replikera **konfigurationen** (lista av attachment-ID:n), inte hela statobjekt. Klienter räknar fram stats själva från samma data.
-- **Editor-verktyg** (i `ApocExtractEditor/`): en "Weapon Builder"/validator som varnar för saknade sockets, trasiga regler och dubbletter.
+- **Editor-verktyg** (i `NightRunnerEditor/`): en "Weapon Builder"/validator som varnar för saknade sockets, trasiga regler och dubbletter.
 
 Dokumentera detaljerna i `Docs/Weapon_Modding_System.md`.
 
@@ -365,4 +377,3 @@ Gör **en spelbar vertical slice** så tidigt som möjligt (en karta, ett par va
 - [ ] Hosting för repo/LFS: `______`
 - [ ] Min-spec / rek-spec: `______`
 - [ ] Ägare per system/område: `______`
-- [ ] Spelets riktiga namn: `______`
