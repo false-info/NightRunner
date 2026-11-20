@@ -1,12 +1,12 @@
-# Pistoler och revolvrar utan licenskrav (Indie Game Dev)
+<details>
+<summary><h1>Pistoler och revolvrar utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar halvautomatiska pistoler och revolvrar med utgångna patent. Genom att använda egna namn, rensa texturer från riktiga tillverkarloggor och bygga egna 3D-modeller minimerar du risken för juridiska tvister.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## Halvautomatiska pistoler
+<details>
+<summary><h2>Halvautomatiska pistoler</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -27,9 +27,10 @@ Denna lista omfattar halvautomatiska pistoler och revolvrar med utgångna patent
 | **Desert Eagle** | 1983 | Heavy Magnum .50 / Deagle | .50 AE / .44 | Medel till hög | Magnum Research skyddar namnet och formen hårt. Gör en egen kantig, tung pistol inspirerad av den istället för en exakt kopia. |
 | **Glock 17 / 19** | 1982 | Polymer 9mm / G17-stil | 9x19mm | Medel till hög | Glock stämmer utvecklare som kopierar exakt. Runda till manteln, ändra greppets mönster och vinkel. |
 
----
+</details>
 
-## Revolvrar
+<details>
+<summary><h2>Revolvrar</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -42,15 +43,20 @@ Denna lista omfattar halvautomatiska pistoler och revolvrar med utgångna patent
 | **Remington Model 1858** | 1858 | Cap & Ball Revolver / Blackpowder | .44 | Låg | Svartkrutsvapen från 1800-talet, 100 % fri. |
 | **LeMat Revolver** | 1856 | 9-Shot Grapeshot Revolver | .42 / 20g | Låg | Unik revolver med en extra hagelpipa i mitten. Helt fri. |
 | **Mateba Unica 6** | 1997 | Autorevolver .357 | .357 Magnum | Medel | Pipa i nederkant av trumman. Ändra detaljer på ramen och greppet för att undvika formskydd. |
-# Kulsprutepistoler (SMG) utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Kulsprutepistoler (SMG) utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar kulsprutepistoler med utgångna patent. Genom att använda generiska eller militära beteckningar, ta bort logotyper och justera ikoniska detaljer minimerar du risken för juridiska problem.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## Kulsprutepistoler (SMG)
+<details>
+<summary><h2>Kulsprutepistoler (SMG)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -72,15 +78,20 @@ Denna lista omfattar kulsprutepistoler med utgångna patent. Genom att använda 
 | **PM-63 RAK** | 1963 | Polish Machine Pistol | 9x18mm | Låg | Polsk kulsprutepistol med utfällbart framgrepp, helt fri. |
 | **HK MP5** | 1966 | Roller-Delayed SMG / MP-5-stil | 9x19mm | Medel till hög | Heckler & Koch är kända för att bevaka sina designer hårt. Byt ut handskyddet, ändra formen på siktet och skippa HK-loggor. |
 | **FN P90** | 1990 | PDW 5.7 / Bullpup SMG | 5.7x28mm | Hög | Extremt säreget utseende (trade dress) som FN Herstal skyddar. Ska du ha en liknande bör du göra om profilen rejält. |
-# Automatkarbiner och gevär utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Automatkarbiner och gevär utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar automatkarbiner, stridsgevär och äldre halvautomatiska gevär med utgångna patent. Genom att använda generiska eller militära beteckningar, ta bort logotyper och justera ikoniska detaljer minimerar du risken för juridiska problem.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## Automatkarbiner (Assault Rifles)
+<details>
+<summary><h2>Automatkarbiner (Assault Rifles)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -96,9 +107,10 @@ Denna lista omfattar automatkarbiner, stridsgevär och äldre halvautomatiska ge
 | **SA80 / L85A1** | 1985 | L85 / British Bullpup | 5.56x45mm | Medel | Brittisk militärkonstruktion. Använd militära beteckningen "L85" istället för tillverkarnamn och förenkla detaljer. |
 | **HK G36** | 1996 | Polymer Carbine 5.56 | 5.56x45mm | Hög | Heckler & Koch bevakar G36-designen hårt. Ska du ha en liknande bör du bygga om bärhandtaget och ventilationshålen rejält. |
 
----
+</details>
 
-## Stridsgevär & Halvautomatiska gevär (Battle & Semi-Auto Rifles)
+<details>
+<summary><h2>Stridsgevär & Halvautomatiska gevär (Battle & Semi-Auto Rifles)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -112,15 +124,20 @@ Denna lista omfattar automatkarbiner, stridsgevär och äldre halvautomatiska ge
 | **HK G3** | 1958 | G3 / Roller-Delayed Rifle | 7.62x51mm | Medel | Patentet gick ut på 70-talet (tillverkas av många länder under licens), men undvik "Heckler & Koch"-namnet och loggor. |
 | **AR-10** | 1956 | AR-10 / Marksman 7.62 | 7.62x51mm | Låg till medel | Ursprungsmodellen innan M16. Patentet är utgånget, undvik namnet "ArmaLite". |
 | **Winchester Model 1873 / 1894** | 1873 / 1894 | Lever-Action Rifle / Repeater | .44-40 / .30-30 | Låg | Klassisk bygelrepeter. Undvik namnet "Winchester" som är ett registrerat varumärke. |
-# Prickskyttegevär, DMR och pansarvärnsgevär utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Prickskyttegevär, DMR och pansarvärnsgevär utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar repetergevär, halvautomatiska skarpskyttegevär (DMR) och tunga pansarvärnsgevär med utgångna patent. Genom att använda militära eller generiska beteckningar, ta bort logotyper och justera detaljer på moderna chassin minimerar du risken för varumärkesintrång.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## Repetergevär (Bolt-Action Sniper & Hunting Rifles)
+<details>
+<summary><h2>Repetergevär (Bolt-Action Sniper & Hunting Rifles)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -139,9 +156,10 @@ Denna lista omfattar repetergevär, halvautomatiska skarpskyttegevär (DMR) och 
 | **Accuracy International Arctic Warfare (AWM / L96A1)** | 1982 | L96A1 / Arctic Sniper .338 | .338 Lapua | Medel | Chassit med tumhålskolv är extremt ikoniskt (känd från Counter-Strike). Byt ut form på kolv, kindstöd och mynningsbroms, och kalla den L96. |
 | **CheyTac M200 Intervention** | 2001 | M200 / Long-Range Intervention | .408 | Medel till hög | Känd från Modern Warfare 2. Ändra formen på bärhandtaget, handskyddet och kolven så att det inte är en exakt kopia. |
 
----
+</details>
 
-## Halvautomatiska skarpskyttegevär (DMR / Semi-Auto Sniper)
+<details>
+<summary><h2>Halvautomatiska skarpskyttegevär (DMR / Semi-Auto Sniper)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -156,9 +174,10 @@ Denna lista omfattar repetergevär, halvautomatiska skarpskyttegevär (DMR) och 
 | **HK PSG1** | 1972 | Heavy Semi-Auto Sniper 7.62 | 7.62x51mm | Medel till hög | Heckler & Koch skyddar sina designer. Ändra greppet, handskyddet och kolven om du inspireras av denna. |
 | **Walther WA 2000** | 1982 | Bullpup Wood Sniper .300 | .300 Win Mag | Medel | Extremt säreget bullpup-utseende med träpaneler. Hög igenkänningsfaktor – gör en egen tolkning av ramen för att undvika formskydd. |
 
----
+</details>
 
-## Pansarvärnsgevär (Anti-Materiel Rifles)
+<details>
+<summary><h2>Pansarvärnsgevär (Anti-Materiel Rifles)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -169,15 +188,20 @@ Denna lista omfattar repetergevär, halvautomatiska skarpskyttegevär (DMR) och 
 | **Barrett M82A1 / M107** | 1982 | .50 Cal Anti-Materiel Rifle / M107 | .50 BMG | Medel till hög | Barrett skyddar sitt namn och den pilformade mynningsbromsen hårt. Gör en egen mynningsbroms och ändra lådans profil. |
 | **Barrett M95 / M99** | 1995 | Bullpup .50 Cal Bolt Rifle | .50 BMG | Medel | Bullpup-repeter i .50 BMG. Samma sak här: ändra mynningsbromsen och skippa Barrett-loggor. |
 | **McMillan TAC-50** | 1980-tal | TAC-50 / Heavy Bolt .50 | .50 BMG | Medel | Repetergevär i .50 BMG. Undvik "McMillan"-namnet och gör en egen kolvdesign. |
-# Hagelgevär (Shotguns) utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Hagelgevär (Shotguns) utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar pumphagelgevär, halvautomatiska hagelgevär, bygelrepetrar och dubbelpipiga hagelgevär med utgångna patent. Genom att använda generiska eller militära beteckningar, ta bort tillverkarnamn och justera ikoniska detaljer minimerar du risken för juridiska problem.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## Pumphagelgevär (Pump-Action Shotguns)
+<details>
+<summary><h2>Pumphagelgevär (Pump-Action Shotguns)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -191,9 +215,10 @@ Denna lista omfattar pumphagelgevär, halvautomatiska hagelgevär, bygelrepetrar
 | **Neostead 2000** | 1991 | Bullpup Dual-Tube Shotgun | 12 Gauge | Medel | Sydafrikanskt bullpup-pumphagel med två magasinrör ovanpå pipan och framåt-pumpning. Ändra detaljer på chassit för att undvika formskydd. |
 | **Kel-Tec KSG** | 2011 | Dual-Tube Bullpup Pump | 12 Gauge | Medel till hög | Modern design med dubbla magasinrör undertill. Kel-Tec är ett aktivt märke – gör en egen mer kantig eller förenklad bullpup-design inspirerad av den. |
 
----
+</details>
 
-## Halvautomatiska & Automatiska hagelgevär (Semi-Auto & Full-Auto)
+<details>
+<summary><h2>Halvautomatiska & Automatiska hagelgevär (Semi-Auto & Full-Auto)</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -207,9 +232,10 @@ Denna lista omfattar pumphagelgevär, halvautomatiska hagelgevär, bygelrepetrar
 | **USAS-12** | 1989 | Automatic Drum Shotgun | 12 Gauge | Medel | Helautomatiskt hagelgevär med M16-liknande bärhandtag och trummagasin. Ändra bärhandtagets form och håll ytorna enkla. |
 | **AA-12 (Atchisson Assault Shotgun)** | 1972 / 2005 | Auto-Assault Shotgun 12g | 12 Gauge | Medel | Grundkonstruktionen är från 70-talet, men den moderna vita/grå plastversionen från 2005 är känd från spel. Undvik namnet "AA-12" och gör en egen lådform. |
 
----
+</details>
 
-## Brytvapen, Bygelrepetrar & Specialhagel
+<details>
+<summary><h2>Brytvapen, Bygelrepetrar & Specialhagel</h2></summary>
 
 | Förebild | År | Säkert namn i spelet | Kaliber | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -221,15 +247,20 @@ Denna lista omfattar pumphagelgevär, halvautomatiska hagelgevär, bygelrepetrar
 | **TOZ-106** | 1993 | Bolt-Action Folding Shotgun | 20 Gauge | Låg | Kompakt ryskt repeterhagelgevär med fällkolv och trästock. Helt säker med generiskt namn. |
 | **MTs255** | 1993 | Revolving Shotgun 12g | 12 Gauge | Låg till medel | Hagelgevär med revolvertrumma för 5 skott. Mycket unik animation för spel, helt säker med fiktivt namn. |
 | **Armsel Striker / Streetsweeper** | 1981 | Drum Revolver Shotgun | 12 Gauge | Medel | Trummagasin med fjädermekanism. Undvik namnen "Striker" och "Streetsweeper" och gör en egen version av trumman och pipskyddet. |
-# Weapon Attachments (Vapentillbehör) utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Weapon Attachments (Vapentillbehör) utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasin och kolvar. Genom att använda generiska funktionsnamn, undvika tillverkarmärken och skapa egna geometriska former minimerar du risken för varumärkes- och formskyddstvister.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## 1. Sikten och optik (Optics & Sights)
+<details>
+<summary><h2>1. Sikten och optik (Optics & Sights)</h2></summary>
 
 | Typ av tillbehör | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -245,9 +276,10 @@ Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasi
 | **Vinklat sidofäste (Canted Sight)** | 45-Degree Offset Micro Sight | - | Låg | Ett litet 45-graders fäste på sidan av skenan för ett extra mikrosikte. Helt fri konstruktion. |
 | **Mörker- & Värmesikte** | Night Vision Scope / Thermal Optic | FLIR, ATN | Låg till medel | Gör en egen robust lådform med stor frontlins och gummimussla för ögat. Undvik märkesnamn som "FLIR". |
 
----
+</details>
 
-## 2. Mynningstillbehör (Muzzle Devices)
+<details>
+<summary><h2>2. Mynningstillbehör (Muzzle Devices)</h2></summary>
 
 | Typ av tillbehör | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -261,9 +293,10 @@ Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasi
 | **Kompensator (Pistol)** | Pistol Compensator / Ported Barrel | - | Låg | En förlängning längst fram på pistolpipan med hål uppåt för att minska pipuppslag. Helt fri. |
 | **Choke (Hagelgevär)** | Full Choke / Duckbill Choke | - | Låg | Mynningsförträngning för hagelgevär (inklusive den breda "anknäbbs"-spridaren). Helt fri. |
 
----
+</details>
 
-## 3. Underpipa och grepp (Underbarrel & Grips)
+<details>
+<summary><h2>3. Underpipa och grepp (Underbarrel & Grips)</h2></summary>
 
 | Typ av tillbehör | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -275,9 +308,10 @@ Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasi
 | **Underpipigt hagelgevär** | Underbarrel Shotgun / Masterkey | KAC Masterkey, M26 MASS | Låg | Ett avsågat pumphagelgevär monterat under pipan på en automatkarbin. Använd generiskt namn ("Underbarrel Shotgun"). |
 | **Bajonett** | Tactical Bayonet / Trench Spike | - | Låg | Kniv monterad under pipan på gevär eller hagelgevär. Helt fri. |
 
----
+</details>
 
-## 4. Taktiska moduler och sikteshjälpmedel (Tactical Modules)
+<details>
+<summary><h2>4. Taktiska moduler och sikteshjälpmedel (Tactical Modules)</h2></summary>
 
 | Typ av tillbehör | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -287,9 +321,10 @@ Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasi
 | **Avståndsmätare** | Rangefinder Module | Wilcox RAPTAR | Låg till medel | En låda ovanpå eller vid sidan av kikarsiktet som visar avståndet till målet. Gör en egen kantig modul. |
 | **Ammunitionsräknare (Sci-Fi/Modern)** | Digital Ammo Counter | - | Låg | En liten digital display på sidan av vapnet som visar kvarvarande skott. Helt fri och väldigt populärt i spel. |
 
----
+</details>
 
-## 5. Magasin, kolvar och handskydd (Magazines, Stocks & Rails)
+<details>
+<summary><h2>5. Magasin, kolvar och handskydd (Magazines, Stocks & Rails)</h2></summary>
 
 | Typ av tillbehör | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -301,15 +336,20 @@ Denna lista omfattar sikten, mynningstillbehör, grepp, taktiska moduler, magasi
 | **Kolvar (Stocks)** | Folding Stock / Skeleton Stock / Wood Stock / Adjustable Carbine Stock | Magpul CTR / PRS | Låg | Klassiska militära kolvar (som M4-teleskopkolv, fällbar stålkolv, skelettkolv eller träkolv) är helt fria. |
 | **Patronhållare på kolv** | Buttstock Shell Holder / Ammo Sleeve | - | Låg | Ett tygband runt kolven som håller extra hagelpatroner eller gevärsskott. Helt fri. |
 | **Pipskydd & Värmesköld** | Perforated Heat Shield / Wood Handguard | - | Låg | Perforerad plåt över pipan (vanligt på hagelgevär och kulsprutor). Helt fri. |
-# Närstridsvapen (Melee Weapons) utan licenskrav (Indie Game Dev)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Närstridsvapen (Melee Weapons) utan licenskrav (Indie Game Dev)</h1></summary>
 
 Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och improviserade närstridsvapen. Grundläggande verktyg och historiska vapenformer är 100 % fria, men var noggrann med att undvika varumärkesskyddade namn och logotyper på bladen.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## 1. Knivar, dolkar och bajonetter (Knives & Bayonets)
+<details>
+<summary><h2>1. Knivar, dolkar och bajonetter (Knives & Bayonets)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -326,9 +366,10 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Jaktkniv / Morakniv** | Hunting Knife / Bushcraft Knife | Morakniv, Buck Knives | Låg | Enkel slidkniv med trä- eller plastskaft. Helt fri om du skippar tillverkarstämplar på bladet. |
 | **Mattkniv / Brytbladskniv** | Box Cutter / Utility Knife | Stanley | Låg | Enkel skjutkniv av plast eller metall (perfekt som startvapen). Undvik namnet "Stanley". |
 
----
+</details>
 
-## 2. Machetes och svärd (Machetes & Swords)
+<details>
+<summary><h2>2. Machetes och svärd (Machetes & Swords)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -339,9 +380,10 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Långsvärd / Bredsvärd** | Longsword / Broadsword / Claymore | - | Låg | Medeltida europeiska svärd, helt fria. |
 | **Gladius / Romerskt kortsvärd** | Short Sword / Gladius | - | Låg | Klassiskt kortsvärd för närstrid, helt fri. |
 
----
+</details>
 
-## 3. Yxor och huggverktyg (Axes & Hatchets)
+<details>
+<summary><h2>3. Yxor och huggverktyg (Axes & Hatchets)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -352,9 +394,10 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Stridsyxa (Vikinga-/Medeltida)** | Battle Axe / Bearded Axe / Dane Axe | - | Låg | Historiska stridsyxor med ett eller två blad, 100 % fria. |
 | **Köttkniv / Köttyxa** | Meat Cleaver / Butcher Cleaver | - | Låg | Rektangulärt tungt köksblad med hål i hörnet. Helt fri. |
 
----
+</details>
 
-## 4. Trubbiga vapen och slagverktyg (Blunt Weapons)
+<details>
+<summary><h2>4. Trubbiga vapen och slagverktyg (Blunt Weapons)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -370,9 +413,10 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Stridsklubba / Morgonstjärna** | Mace / Morningstar / Flail | - | Låg | Medeltida spikklubba eller stridsgissel med kedja, helt fri. |
 | **Elbatong / Stun Baton** | Shock Baton / Cattle Prod | Taser | Låg | Elektrisk batong med gnistor i spetsen. **Viktigt:** Använd aldrig ordet "Taser" (som är ett registrerat varumärke) – kalla den *Stun Baton* eller *Shock Prod*. |
 
----
+</details>
 
-## 5. Stångvapen och lantbruksverktyg (Polearms & Tools)
+<details>
+<summary><h2>5. Stångvapen och lantbruksverktyg (Polearms & Tools)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -383,9 +427,10 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Fältspade / Entrenching Tool** | Folding Shovel / Trench Spade | Glock (E-tool) | Låg | Militär fältspade med slipade kanter (mycket populärt närstridsvapen i skyttegravsspel). Helt fri om du undviker märkesloggor. |
 | **Högaffel / Lie** | Pitchfork / Scythe | - | Låg | Klassiska bondgårdsverktyg (perfekt för skräck- och överlevnadsspel), 100 % fria. |
 
----
+</details>
 
-## 6. Improviserade & Motoriserade vapen (Improvised & Power Tools)
+<details>
+<summary><h2>6. Improviserade & Motoriserade vapen (Improvised & Power Tools)</h2></summary>
 
 | Förebild / Typ | Säkert namn i spelet | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -396,15 +441,20 @@ Denna lista omfattar knivar, machetes, yxor, trubbiga vapen, stångvapen och imp
 | **Skruvmejsel / Stämjärn** | Heavy Screwdriver / Chisel | - | Låg | Lång skruvmejsel för snabba hugg, 100 % fri. |
 | **Stekpanna (Cast Iron)** | Cast Iron Skillet / Frying Pan | Lodge | Låg | Tung gjutjärnspanna (ikonisk i spel som PUBG och Left 4 Dead). Helt fri utan logga i botten. |
 | **Gitarr** | Acoustic Guitar / Electric Guitar | Fender, Gibson | Låg | Använd som slagträ. Undvik Fender Stratocaster- och Gibson Les Paul-huvudets exakta form (som är varumärkesskyddade!). |
-# Armor, Helmets, Tactical Rigs & Backpacks (No License Required)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Armor, Helmets, Tactical Rigs & Backpacks (No License Required)</h1></summary>
 
 Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutrustning, hjälmar, västar och ryggsäckar, samt hur du namnger och modellerar dem säkert utan licenskrav.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## 1. Helmets & Headgear (Hjälmar & Huvudskydd)
+<details>
+<summary><h2>1. Helmets & Headgear (Hjälmar & Huvudskydd)</h2></summary>
 
 | Riktig förebild (Real Name) | År / Ursprung | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -423,9 +473,10 @@ Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutr
 | **Welding Mask (Svetsmask)** | - | Heavy Welding Mask | Låg | Improviserat ansiktsskydd i stål med litet siktfönster. 100 % fri. |
 | **Ballistic Face Mask** | - | Ballistic Mandible / Armored Face Mask | Låg | Skottsäker ansiktsmask i komposit/stål med utskurna ögonhål. Helt fri. |
 
----
+</details>
 
-## 2. Body Armor & Plate Carriers (Kroppsskydd & Stridsvästar)
+<details>
+<summary><h2>2. Body Armor & Plate Carriers (Kroppsskydd & Stridsvästar)</h2></summary>
 
 | Riktig förebild (Real Name) | År / Ursprung | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -443,9 +494,10 @@ Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutr
 | **LBT-6094** | 2000-tal (USA) | Tactical Plate Carrier 6094 | Låg till medel | Klassisk medeltung plate carrier. Undvik loggan "London Bridge Trading (LBT)". |
 | **Improvised Scrap / Tire Armor** | - | Scrap Metal Chestplate / Tire Armor | Låg | Hopsvetsade stålplåtar eller bildäck fästa med läderremmar (Rust / Fallout-stil). 100 % fri. |
 
----
+</details>
 
-## 3. Chest Rigs & Webbing (Stridsselar & Bärsystem)
+<details>
+<summary><h2>3. Chest Rigs & Webbing (Stridsselar & Bärsystem)</h2></summary>
 
 | Riktig förebild (Real Name) | År / Ursprung | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -457,9 +509,10 @@ Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutr
 | **Haley Strategic D3CR / Spiritus Micro Fight** | 2010-tal (USA) | Micro Chest Rig / Modular Chest Rig | Medel | Kompakta, moderna bröstselar som fästs med spännen på en plate carrier. Gör en egen ficklayout och skippa märkesloggor. |
 | **Tactical Assault Panel (TAP)** | 2010 (USA) | MOLLE Chest Rig / Assault Panel | Låg | Amerikanska arméns standard-bröstsele med 6–8 magasinfickor och MOLLE-band. Helt fri militär konstruktion. |
 
----
+</details>
 
-## 4. Backpacks & Bags (Ryggsäckar & Väskor)
+<details>
+<summary><h2>4. Backpacks & Bags (Ryggsäckar & Väskor)</h2></summary>
 
 | Riktig förebild (Real Name) | År / Ursprung | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -472,9 +525,10 @@ Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutr
 | **Duffel Bag / Gym Bag** | - | Heavy Duffel Bag / Loot Bag | Låg | Klassisk rånar- eller militärsäck med dragkedja och bärremmar. 100 % fri. |
 | **Dry Bag** | - | Waterproof Dry Bag | Låg | Vattentät rulltoppsväska i PVC/nylon (perfekt för överlevnadsspel), helt fri. |
 
----
+</details>
 
-## 5. Tactical Gear, Masks & Headsets (Övrig utrustning & Elektronik)
+<details>
+<summary><h2>5. Tactical Gear, Masks & Headsets (Övrig utrustning & Elektronik)</h2></summary>
 
 | Riktig förebild (Real Name) | Säkert namn i spelet (In-Game Name) | Undvik att kopiera (Varumärken) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -484,15 +538,20 @@ Denna lista använder de riktiga engelska/militära beteckningarna på skyddsutr
 | **GP-5 Gas Mask** | Soviet Rubber Gas Mask | - | Låg | Den klassiska grå gummimasken som täcker hela huvudet med filter framtill. 100 % fri. |
 | **3M Half-Face Respirator** | Industrial Respirator / Painter Mask | 3M | Låg | Halvmask med två runda rosa/svarta partikelfilter. Undvik "3M"-loggan. |
 | **Active Ear Protection (Headset)** | Tactical Headset / Electronic Earpro | Peltor ComTac, MSA Sordin, Howard Leight | Låg till medel | Aktiva hörselkåpor med mikrofonbom. Gör en egen slät kåpform utan "Peltor"- eller "Sordin"-logotyper. |
-# Gas Masks, CBRN Suits & Nuclear Survival Gear (No License Required)
+
+</details>
+
+</details>
+
+<details>
+<summary><h1>Gas Masks, CBRN Suits & Nuclear Survival Gear (No License Required)</h1></summary>
 
 Denna lista omfattar gasmasker, helkroppsdräkter mot strålning/nedfall (CBRN/Hazmat), filter och strålningsmätare med riktiga militära beteckningar och säkra namn för spel efter ett kärnvapenkrig.
 
 *Observera: Detta är allmän information och praxis från spelbranschen, inte juridisk rådgivning.*
 
----
-
-## 1. Gas Masks & Respirators (Gasmasker & Andningsskydd)
+<details>
+<summary><h2>1. Gas Masks & Respirators (Gasmasker & Andningsskydd)</h2></summary>
 
 | Riktig förebild (Real Name) | Ursprung / Era | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -511,9 +570,10 @@ Denna lista omfattar gasmasker, helkroppsdräkter mot strålning/nedfall (CBRN/H
 | **3M 6000 / 7500 Half-Face Respirator** | Civil/Industri | Industrial Half-Mask Respirator | Låg | Vanlig bygg- och målarhalvmask med två runda filter på sidorna (perfekt som tidig/svag loot). Undvik "3M"-loggan. |
 | **Improvised Bottle / Cloth Mask** | Post-Apokalyps | Makeshift Soda-Bottle Mask / Dust Respirator | Låg | Hemmagjord mask byggd av en avskuren plastflaska, silvertejp, simglasögon och kolfilter. 100 % fri. |
 
----
+</details>
 
-## 2. CBRN & Hazmat Suits (Strålskydds- & Kemdräkter)
+<details>
+<summary><h2>2. CBRN & Hazmat Suits (Strålskydds- & Kemdräkter)</h2></summary>
 
 | Riktig förebild (Real Name) | Ursprung / Era | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- | :--- |
@@ -525,9 +585,10 @@ Denna lista omfattar gasmasker, helkroppsdräkter mot strålning/nedfall (CBRN/H
 | **Lead-Lined Radiation Apron / Suit** | Civil/Militär | Lead-Lined Fallout Suit / Heavy Rad-Armor | Låg | Tung skyddsdräkt med insydda blyplattor och metallförstärkningar (för extreme "hot zones"). 100 % fri. |
 | **Firefighter Turnout Gear (Bunker Gear)** | Civil | Firefighter Bunker Gear / Heat-Resistant Suit | Låg | Tung brandmansdräkt med reflexband – ger bra skydd mot eld, splitter och lättare nedfall. 100 % fri. |
 
----
+</details>
 
-## 3. Filters, Oxygen & Breathing Gear (Filter & Syresystem)
+<details>
+<summary><h2>3. Filters, Oxygen & Breathing Gear (Filter & Syresystem)</h2></summary>
 
 | Riktig förebild (Real Name) | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- |
@@ -536,9 +597,10 @@ Denna lista omfattar gasmasker, helkroppsdräkter mot strålning/nedfall (CBRN/H
 | **SCBA (Self-Contained Breathing Apparatus)** | SCBA Oxygen Tank / Compressed Air Pack | Låg | Rökdykartub på ryggen med tryckmätare på axelremmen och slang till helmask (ger begränsad lufttid i spelet). Helt fri. |
 | **Improvised Charcoal Canister** | Makeshift Filter / Scrap Charcoal Canister | Låg | Hemmagjort filter av en konservburk fylld med träkol och tyg. 100 % fri. |
 
----
+</details>
 
-## 4. Geiger Counters, Dosimeters & Radiation Meds (Mätare & Strålskyddsmedicin)
+<details>
+<summary><h2>4. Geiger Counters, Dosimeters & Radiation Meds (Mätare & Strålskyddsmedicin)</h2></summary>
 
 | Riktig förebild (Real Name) | Säkert namn i spelet (In-Game Name) | Risk | Design- & 3D-tips |
 | :--- | :--- | :--- | :--- |
@@ -549,3 +611,7 @@ Denna lista omfattar gasmasker, helkroppsdräkter mot strålning/nedfall (CBRN/H
 | **Potassium Iodide (KI) Tablets** | Potassium Iodide Pills / Anti-Rad Tablets | Låg | Jodtabletter som tas för att blockera radioaktivt jod (verklig strålskyddsmedicin, helt generiskt kemiskt namn). |
 | **Prussian Blue / DTPA Chelator** | Radiogardase-stil / Heavy Metal Chelator | Låg | Kapslar eller injektionsspruta för att rensa ut radioaktiva partiklar ur kroppen. Använd kemiska namn som *Potassium Iodide* eller *Chelation Injectors*. |
 | **AI-2 Medkit (Sovjetisk apoteksask)** | AI-2 First Aid Kit / Orange Med-Box | Låg | Den klassiska orangea plastasken med små piller-tuber och spruta (känd från Tarkov och S.T.A.L.K.E.R.). 100 % fri. |
+
+</details>
+
+</details>
